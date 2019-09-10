@@ -51,7 +51,8 @@ strong {
 .subtitle {
     font-weight: 700;
     color: #1792d2;
-    font-size: .75rem;
+    font-size: .875rem;
+    text-transform: uppercase;
     margin: 0;
 }
 
@@ -98,9 +99,10 @@ Layout
 }
 
 header {
-    background: #f8f8f8;
+    background: #e5e2e2;
     padding: 2em 0;
     text-align: center;
+    margin-bottom: 3em;
 }
 
 @media (min-width: 675px) {
@@ -128,6 +130,7 @@ nav ul {
 
 nav li {
     margin-left: 2em;
+    text-transform: uppercase;
 }
 
 nav a {
@@ -182,5 +185,30 @@ nav a:focus {
     order: 1;
 }
 
-
-
+@media (min-width: 675px) {
+    .article-recent {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .article-recent-main {
+        width: 68%;
+    }
+    
+    .article-recent-secondary {
+        width: 30%;
+    }
+    
+    .article-featured {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .article-image {
+        order: -2;
+    }
+    
+    .article-info {
+        order: -1;
+    }
+}
