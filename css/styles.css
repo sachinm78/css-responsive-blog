@@ -11,6 +11,11 @@ body {
     font-weight: 300;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
 /* =================
 Typography
 ================= */
@@ -70,6 +75,8 @@ strong {
     text-decoration: underline;
 }
 
+
+
 /* =================
 Layout
 ================= */
@@ -80,7 +87,7 @@ Layout
     margin: 0 auto;
 }
 
-.container-nav {
+.container-flex {
     display: flex;
     justify-content: space-between;
 }
@@ -91,13 +98,21 @@ header {
 }
 
 @media (max-width: 675px) {
-    .container-nav {
+    .container-flex {
         flex-direction: column;
     }
     
     header {
         text-align: center;
     }
+}
+
+main {
+    width: 75%;
+}
+
+aside {
+    width: 20%;
 }
 
 /* navigation */
@@ -111,7 +126,6 @@ nav ul {
 
 nav li {
     margin-left: 2em;
-    text-transform: uppercase;
 }
 
 nav a {
