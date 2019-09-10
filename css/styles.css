@@ -220,7 +220,7 @@ nav a:focus {
     
     .article-image {
         order: -2;
-        min-height: 250px;
+        min-height: 200px;
         object-fit: cover;
         /* object-position: left; */
     }
