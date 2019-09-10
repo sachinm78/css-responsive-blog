@@ -107,10 +107,14 @@ Layout
     justify-content: space-between;
 }
 
-header {
+header,
+footer {
     background: #efefef;
     padding: 2em 0;
-    text-align: center;
+    text-align: center;    
+}
+
+header {
     margin-bottom: 3em;
 }
 
