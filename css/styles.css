@@ -137,6 +137,10 @@ header {
     margin-bottom: 3em;
 }
 
+footer {
+    color: rgba(0,0,0,0.5);
+}
+
 @media (min-width: 675px) {
     .container-flex {
         flex-direction: row;
